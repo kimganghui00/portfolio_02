@@ -1,0 +1,207 @@
+@media (max-width:1200px) {
+  .contents .top-tit {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width:1024px) {
+  /* 서브 공통 */
+  .sub-visual {
+    height: 400px;
+  }
+  .sub-visual h2 {
+    line-height: 400px;
+  }
+  .contents .top-tit {
+    font-size: 3.2rem;
+    padding: 100px 0;
+  }
+  .content {
+    flex-direction: column;
+    margin-bottom: 90px;
+  }
+  .content .tit {
+    font-size: 40px;
+  }
+  .content .text {
+    font-size: 1.8rem;
+    margin: 40px 0 50px;
+  }
+  .right-box {
+    width: 100%;
+  }
+  /* sub2 */
+  .brand-content .right-box .text {
+    margin: 50px 0 60px;
+  }
+  /* sub4 */
+  .people-content > div:not(:first-child) {
+    margin-top: 90px;
+  }
+  .people-content ul {
+    margin-top: 30px;
+  }
+  .people-content ul li {
+    width: 123px;
+    height: 97px;
+    border-radius: 20px;
+  }
+  .field table {
+    margin-top: 20px;
+  }
+  .people-content p {
+    margin-top: 20px;
+  }
+
+  /* sub5 */
+  .info-content {
+    padding: 90px 0 0;
+  }
+
+}
+
+@media (max-width:768px) {
+  /* 서브 공통 */
+  .sub-visual {
+    height: 300px;
+  }
+  .sub-visual h2 {
+  font-size: 4rem;
+  line-height: 300px;
+  }
+  .path-wrap .path-list {
+    flex-direction: column;
+  }
+  .path-wrap .path-list li {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+  }
+  .path-wrap .path-list li:first-child {
+    position: relative;
+  }
+  .path-wrap .path-list li:first-child::after {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    background: url(../img/sub/sub-nav.svg) no-repeat;
+  }
+  .path-wrap .path-list li:not(:first-child) {
+    display: none;
+  }
+
+  .content {
+    margin-bottom: 50px;
+  }
+  .contents .top-tit {
+    font-size: 2.2rem;
+    padding: 60px 0;
+  }
+  .contents .top-tit br {
+    display: none;
+  }
+  .content .tit {
+    font-size: 3.2rem;
+  }
+  .content .tit::after {
+    width: 10px;
+    height: 10px;
+    vertical-align: sub;
+    margin-left: 5px;
+  }
+  .content .text {
+    font-size: 1.4rem;
+    margin: 28px 0 20px;
+  }
+  .path-wrap .path-list li.active a {
+    border-bottom: 0;
+    color: var(--font-color);
+  }
+  .path-wrap .path-list li a {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+  .img {
+    height: 200px;
+  }
+  .brand-item {
+    width: 100%;
+  }
+  /* sub2 */
+  .brand-content .right-box .text {
+    margin: 20px 0;
+  }
+  /* sub4 */
+  .contents .people-top-tit br {
+    display: block;
+  }
+  .people-content > div:not(:first-child) {
+    margin-top: 50px;
+  }
+  .people-content ul {
+    margin-top: 20px;
+    justify-content: flex-start;
+    gap: 3%;
+  }
+  .people-content ul::before {
+    display: none;
+  }
+  .people-content ul li {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    flex-direction: row;
+    gap: 5px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    font-size: 1.4rem;
+  }
+  .people-content ul li:not(:last-child):after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    z-index: -1;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: var(--point-color);
+  }
+  .people-content ul li span {
+    font-size: 1.6rem;
+  }
+  .field table {
+    margin-top: 20px;
+  }
+  .field table tr>* {
+    font-size: 1.4rem;
+  }
+  .field table tr th {
+    padding: 8px;
+  }
+  .field table tr td {
+    padding: 8px;
+  }
+  .people-content p {
+    margin-top: 20px;
+    font-size: 1.4rem;
+  }
+  /* sub5 */
+  .info-content {
+    padding: 50px 0 0;
+  }
+  .info-content table {
+    margin: 28px 0 40px 0;
+  }
+  .info-content table td {
+    padding: 15px;
+  }
+    .info-content table tr> :nth-child(1) {
+    display: none;
+  }
+}
